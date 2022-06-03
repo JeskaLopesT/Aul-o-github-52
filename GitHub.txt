@@ -1,0 +1,33 @@
+HASH => Identificação de cada Commit
+HEAD => Local onde se está o commit
+
+mkdir (Nome) => Para se criar uma pasta
+.gitignore (Nome de criação do arquivo) => Nele se coloca os arquivos que você queira que o git não monitore
+clear => Limpar tela
+git config => Para conferir todos os comandos de configuração do git
+git config -- local user.name "Seu nome" => Para identificar seu nome ao Git
+git config -- local user.email "Seu email" => Para add seu email ao git
+cd.. => Para subir a pasta que se esta trabalhando
+cd ../../(Nome final do seu destinatario) => para abrir um repositório desejado
+
+git add . => Para adicionar todos os arquivos na área de standbay
+git commit -m "  " => Para comita os arquivos (Salvar as modificações)
+git push origin main => Para enviar para a pagina da web origin main (Origin = Nome do Repositório; main = Nome da branch)
+
+git init => Para inicializar um repositório no Git (Transformar a pasta)
+git status => Mostrar status do Git
+git add (Nome do arquivo) => Para incluir um arquivo na área de standbay para comitar
+git rm (Nome do arquivo) => Para fazer o Git parar de monitorar o arquivo desejado
+git log => Ver histórico do projeto
+git log --oneline => Ver histórico do projeto resumido por linha cada 1
+git log -p => Ver histórico do projeto e suas alterações detalhado
+git init --bare => Para criar um repositório que só para armazenar as alterações (Ele não contera cópia dos arquivos)(Ele servirá de servidor para outros membros da equipe sincronizem seus trabalhos)
+git remote => Listar todos os repositórios remotos que o local conhece
+git remote add (Nome desejado) (Caminho do servidor) => Adicionar um servidor
+git remote -v => Lista os diretórios de cada repositório de servidor
+git remote rename (nome antigo) (nome novo) => Para renomear um repositório
+git clone (Endereço do servidor) => Para clonar o repositorio remoto para o local (Exemplo: /c/users/...)(pode-se colocar um nome no final se quiser fazer a troca do nome)
+git push (Nome do repositório) (Nome da branch) => Para enviar todos os dados para o repositorio (ou servidor)
+git pull (Nome do repositório) (Nome da branch) => Para trazer/atualizar todos os dados do servido para seu repositorio local
+git push -u (Nome do repositório) (Nome da branch) => Para se enviar arquivos ou modificações para o servidor GitHub (O "-u" é utilizado para depois não ter a nececidade de digitar o nome do repositório e o nome da branch novamente
+git checkout (Nome da Branch) => Para trocar de Branch
